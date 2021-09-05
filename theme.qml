@@ -96,12 +96,12 @@ FocusScope
     // Do this properly later
     property var theme: {
         return {
-            main: api.memory.get('themeBG') || themeLight.main,
-            secondary: api.memory.get('themeSecondary') || themeLight.secondary,
-            accent: api.memory.get('themeAccent') || themeLight.accent,
-            highlight: api.memory.get('themeHighlight') || themeLight.highlight,
-            text: api.memory.get('themeText') || themeLight.text,
-            button: api.memory.get('themeButton') || themeLight.button
+            main: api.memory.get('themeBG') || themeDark.main,
+            secondary: api.memory.get('themeSecondary') || themeDark.secondary,
+            accent: api.memory.get('themeAccent') || themeDark.accent,
+            highlight: api.memory.get('themeHighlight') || themeDark.highlight,
+            text: api.memory.get('themeText') || themeDark.text,
+            button: api.memory.get('themeButton') || themeDark.button
         }
     }
 
