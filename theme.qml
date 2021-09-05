@@ -84,12 +84,12 @@ FocusScope
 
     property var themeDark: {
         return {
-            main: "#2D2D2D",
-            secondary: "#EBEBEB",
-            accent: "#10AEBE",
-            highlight: "black",
-            text: "white",
-            button: "#515151"
+            main: "#272727",
+            secondary: "#CCCCCC",
+            accent: "#16D5D9",
+            highlight: "white",
+            text: "#CCCCCC",
+            button: "#303030"
         }
     }
 
