@@ -188,7 +188,7 @@ FocusScope
                     {
                         width: parent.width
                         height: parent.height
-                        color: "black"
+                        color: "#272727"
                         opacity: 0.5
                         visible: screenshot.source != ""
                     }
