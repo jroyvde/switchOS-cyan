@@ -143,13 +143,15 @@ FocusScope
                 right: parent.right; rightMargin: vpx(63)
                 bottom: parent.bottom
             }
+            topMargin: Math.round(screenheight*0.12)
+            bottomMargin: Math.round(screenheight*0.12)
             
             cellWidth: width / numcolumns
             cellHeight: cellWidth
             preferredHighlightBegin: Math.round(screenheight*0.1388)
             preferredHighlightEnd: Math.round(screenheight*0.6527)
-            highlightRangeMode: ListView.StrictlyEnforceRange // Highlight never moves outside the range
-            snapMode: ListView.SnapToItem
+            highlightRangeMode: ListView.ApplyRange
+            snapMode: ListView.NoSnap
             highlightMoveDuration: 200
 
             
