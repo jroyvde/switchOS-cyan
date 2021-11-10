@@ -11,3 +11,5 @@
 *.includes
 *.code-workspace
 .vs/
+
+*.old
