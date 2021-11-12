@@ -297,9 +297,10 @@ FocusScope
                         anchors {
                             horizontalCenter: bubbletriangle.horizontalCenter
                             bottom: bubbletriangle.top
+                            bottomMargin: -1
                         }
                         
-                        opacity: selected ? 0.95 : 0
+                        opacity: selected ? 1 : 0
                         //Behavior on opacity { NumberAnimation { duration: 50 } }
 
                         Text {
@@ -326,6 +327,7 @@ FocusScope
                         opacity: titleBubble.opacity
                         x: screenshot.width/2 - width/2
                         anchors.bottom: screenshot.top
+                        anchors.bottomMargin: vpx(4.5)
                     }
 
                     // Border
